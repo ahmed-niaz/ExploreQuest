@@ -10,6 +10,18 @@
   --primary-color: #131318;
   --secondary-color: #ff5400;
 }
+
+.btn{
+    border-radius: 8px;
+background: var(--secondary-color);
+padding: 15px 35px;
+border: none;
+cursor: pointer;
+color: #fff;
+text-align: center;
+font-size: 1.25rem;
+font-weight: 800;
+}
 nav,
 main {
   max-width: 1280px;
@@ -117,6 +129,73 @@ color: rgba(19, 19, 24, 0.50);
     background: var(--secondary-color);
     color: #fff;
 }
+
+
+#tour{
+    margin: 6.25rem 0;
+    display: flex;
+    gap: 3.375rem;
+    /* align-items: center; */
+}
+
+.tour-title{
+    color: var(--primary-color);
+font-size: 3.75rem;
+font-weight: 800;
+margin-bottom: 1.75rem;
+}
+
+.tour-description{
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+}
+
+.tour-description-list { 
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
+
+.tour-description-list li{
+    margin-bottom: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

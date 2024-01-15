@@ -16,11 +16,12 @@
   .explore {
     width: 80%;
   }
-  .explore-title {
+  .explore-title,.tour-title {
     font-size: 1.375rem;
   }
-  .explore-description {
+  .explore-description,.tour-description {
     width: 90%;
+    /* margin: 0 auto; */
   }
   .explore-btn {
     flex-direction: column;
@@ -28,4 +29,20 @@
     flex-wrap: wrap;
     align-items: center;
   }
+
+  #tour{
+    flex-direction: column;
+  }
+/* .tour-description-list{
+    width: 80%;
+} */
+  .tour-img{
+    display: flex;
+  }
+  .tour-img img{
+    width: 90%;
+    margin: 0 auto;
+
+  }
+
 }
