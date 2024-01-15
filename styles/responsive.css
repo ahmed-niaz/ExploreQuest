@@ -12,4 +12,20 @@
   #menu {
     display: block;
   }
+
+  .explore {
+    width: 80%;
+  }
+  .explore-title {
+    font-size: 1.375rem;
+  }
+  .explore-description {
+    width: 90%;
+  }
+  .explore-btn {
+    flex-direction: column;
+    width: 90%;
+    flex-wrap: wrap;
+    align-items: center;
+  }
 }
