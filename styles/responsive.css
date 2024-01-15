@@ -1,0 +1,15 @@
+@media screen and (max-width: 600px) {
+  #logo h1 {
+    font-weight: 800;
+    font-size: 1.375rem;
+  }
+  nav {
+    width: 90%;
+  }
+  nav > ul {
+    display: none;
+  }
+  #menu {
+    display: block;
+  }
+}
