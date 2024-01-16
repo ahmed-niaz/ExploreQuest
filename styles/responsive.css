@@ -16,7 +16,7 @@
   .explore {
     width: 80%;
   }
-  .explore-title,.tour-title,.destination-title {
+  .explore-title,.tour-title,.destination-title ,.options-title{
     font-size: 1.375rem;
   }
   .explore-description,.tour-description,.destination-description {
@@ -93,6 +93,9 @@
     position: relative;
   }
 
+  .options-title{
+    margin-top: 1.5rem;
+  }
 .options-description{
     width: 90%;
 }
@@ -102,4 +105,18 @@
   .card{
     width: 90%;
   }
+
+  #newsletter{
+    flex-direction: column;
+  }
+  .newsletter-img img{
+    width: 100%;
+  }
+  .newsletter-content,.newsletter-img{
+    width: 90%;
+    margin: 0 auto;
+  }
+.newsletter-content button{
+    margin-bottom: 2rem;
+}
 }
