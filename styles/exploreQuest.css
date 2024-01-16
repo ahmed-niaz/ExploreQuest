@@ -137,7 +137,7 @@ nav > ul li a {
 }
 
 .tour-title,
-.destination-title {
+.destination-title,.options-title {
   color: var(--primary-color);
   font-size: 3.75rem;
   font-weight: 800;
@@ -159,11 +159,11 @@ nav > ul li a {
   margin-bottom: 1.5rem;
 }
 
-.destination-title {
+.destination-title,.options-title {
   text-align: center;
 }
 
-.destination-description {
+.destination-description,.options-description {
   color: var(--primary-color);
   width: 60%;
   margin: 0 auto;
@@ -175,6 +175,7 @@ nav > ul li a {
   grid-template-rows: repeat(3, auto);
   gap: 1rem;
   margin-top: 3rem;
+  margin-bottom: 6.25rem;
 }
 
 .destination-grid img {
@@ -225,7 +226,44 @@ nav > ul li a {
   grid-column: 6 / span 7;
   position: relative;
 }
+.card-container{
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
 
+.card{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 45%;
+    padding-left: 2rem;
+    margin-top: 3rem;
+}
+.card-description{
+    width: 80%;
+}
+.card img{
+margin-top: 2rem;
+}
+.card-title{
+    margin-top: 2rem;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.card-description{
+    margin-bottom: 2rem;
+    color: #5A5A5D;
+    margin-top: 1rem;
+}
+#card-blue{
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
 .hide {
   display: none;
 }

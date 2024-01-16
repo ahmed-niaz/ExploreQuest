@@ -92,4 +92,14 @@
     grid-column: 1 / span 12;
     position: relative;
   }
+
+.options-description{
+    width: 90%;
+}
+  .card-container{
+    flex-direction: column;
+  }
+  .card{
+    width: 90%;
+  }
 }
