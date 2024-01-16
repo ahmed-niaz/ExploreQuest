@@ -13,8 +13,9 @@
     display: block;
   }
 
-  .explore {
-    width: 80%;
+  #explore {
+    width: 90%;
+    margin: 2rem auto;
   }
   .explore-title,
   .tour-title,
@@ -41,6 +42,10 @@
   /* .tour-description-list{
     width: 80%;
 } */
+.tour-content{
+    width: 90%;
+    margin: 0 auto;
+}
   .tour-img {
     display: flex;
   }
