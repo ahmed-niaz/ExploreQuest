@@ -114,16 +114,6 @@
   .card {
     width: 90%;
   }
-.gallery-container{
-  grid-template-columns: auto;
-}
-.gallery-container img{
-  width: 90%;
-  margin: 0 auto;
-}
-.gallery-description{
-  width: 90%;
-}
   #newsletter {
     flex-direction: column;
   }

@@ -137,8 +137,7 @@ nav > ul li a {
 
 .tour-title,
 .destination-title,
-.options-title,
-.gallery-title {
+.options-title {
   color: var(--primary-color);
   font-size: 3.75rem;
   font-weight: 800;
@@ -163,14 +162,12 @@ nav > ul li a {
 }
 
 .destination-title,
-.options-title,
-.gallery-title {
+.options-title{
   text-align: center;
 }
 
 .destination-description,
-.options-description,
-.gallery-description {
+.options-description{
   color: var(--primary-color);
   width: 60%;
   margin: 0 auto;
@@ -270,22 +267,6 @@ nav > ul li a {
 #card-blue {
   border: 1px solid rgba(41, 206, 246, 0.2);
   background: rgba(41, 206, 246, 0.05);
-}
-.gallery-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 1.5rem;
-}
-
-.gallery-container img {
-  width: 100%;
-  border-radius: 1rem;
-}
-.gallery-title {
-  margin-top: 3rem;
-}
-.gallery-description {
-  margin-bottom: 2rem;
 }
 #newsletter {
   display: flex;
