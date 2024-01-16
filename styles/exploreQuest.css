@@ -149,7 +149,9 @@ nav > ul li a {
   color: var(--primary-color);
   margin-bottom: 1.5rem;
 }
-
+.tour-description em{
+    color: var(--secondary-color);
+}
 .tour-description-list {
   width: 90%;
   margin: 0 auto;
@@ -311,7 +313,29 @@ nav > ul li a {
 background: rgba(19, 19, 24, 0.05);
 margin: 1rem auto;
 }
+.newsletter-img {
+    position: relative;
+}
 
+.savings{
+    position: absolute;
+    border-radius: 1rem;
+    padding: 2.5rem .75rem;
+    background-color: var(--secondary-color);
+    left: 60%;
+    top: 55%;
+    transform: rotate(-45deg);
+}
+.savings h4{
+    color: #FFF;
+font-size: 1.5rem;
+font-weight: 800;
+}
+.savings a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
 footer{
     display: flex;
     flex-direction: column;

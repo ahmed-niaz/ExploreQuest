@@ -127,7 +127,22 @@
   .newsletter-content button {
     margin-bottom: 2rem;
   }
+  .newsletter-img{
+    position: relative;
+  }
+.savings{
+position: absolute;
+    padding: .5rem .75rem;
+}
+.savings h4{
+    color: #FFF;
+font-size: 1rem;
 
+}
+.savings a{
+    color: #fff;
+    text-align: center;
+}
   .footer-text{
     width: 70%;
 
