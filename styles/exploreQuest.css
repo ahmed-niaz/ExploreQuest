@@ -11,16 +11,16 @@
   --secondary-color: #ff5400;
 }
 
-.btn{
-    border-radius: 8px;
-background: var(--secondary-color);
-padding: 15px 35px;
-border: none;
-cursor: pointer;
-color: #fff;
-text-align: center;
-font-size: 1.25rem;
-font-weight: 800;
+.btn {
+  border-radius: 8px;
+  background: var(--secondary-color);
+  padding: 15px 35px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 800;
 }
 nav,
 main {
@@ -71,7 +71,7 @@ nav > ul li a {
 }
 
 #explore {
-    margin-top: 3rem;
+  margin-top: 3rem;
   background: url("../assets/Images/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -90,11 +90,10 @@ nav > ul li a {
   font-weight: 800;
 }
 
-.explore-description{
-
-    width: 60%;
-    margin: 0 auto;
-    color: #fff;
+.explore-description {
+  width: 60%;
+  margin: 0 auto;
+  color: #fff;
 }
 
 .explore-btn {
@@ -106,99 +105,127 @@ nav > ul li a {
   margin-top: 3rem;
   margin-bottom: 6.625rem;
 }
-.explore-btn li{
-    list-style: none;
+.explore-btn li {
+  list-style: none;
 }
-.explore-btn button{
-    border: none;
-    width: 174px;
-height: 52px;
-    border-radius: 8px;
-background: #FFF;
-display: flex;
-align-items: center;
-justify-content: space-around;
-color: rgba(19, 19, 24, 0.50);
-}
-
-#reverse-btn{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    gap: 5px;
-    background: var(--secondary-color);
-    color: #fff;
+.explore-btn button {
+  border: none;
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: rgba(19, 19, 24, 0.5);
 }
 
-
-#tour{
-    margin: 6.25rem 0;
-    display: flex;
-    gap: 3.375rem;
-    /* align-items: center; */
+#reverse-btn {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 5px;
+  background: var(--secondary-color);
+  color: #fff;
 }
 
-.tour-title{
-    color: var(--primary-color);
-font-size: 3.75rem;
-font-weight: 800;
-margin-bottom: 1.75rem;
+#tour {
+  margin: 6.25rem 0;
+  display: flex;
+  gap: 3.375rem;
+  /* align-items: center; */
 }
 
-.tour-description{
-    color: var(--primary-color);
-    margin-bottom: 1.5rem;
+.tour-title,
+.destination-title {
+  color: var(--primary-color);
+  font-size: 3.75rem;
+  font-weight: 800;
+  margin-bottom: 1.75rem;
 }
 
-.tour-description-list { 
-    width: 90%;
-    margin: 0 auto;
-    margin-bottom: 1.5rem;
+.tour-description {
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
 }
 
-.tour-description-list li{
-    margin-bottom: 1.5rem;
+.tour-description-list {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
 }
 
+.tour-description-list li {
+  margin-bottom: 1.5rem;
+}
 
+.destination-title {
+  text-align: center;
+}
 
+.destination-description {
+  color: var(--primary-color);
+  width: 60%;
+  margin: 0 auto;
+}
 
+.destination-grid {
+  display: grid;
+  grid-template-columns: repeat(12, auto);
+  grid-template-rows: repeat(3, auto);
+  gap: 1rem;
+  margin-top: 3rem;
+}
 
+.destination-grid img {
+  width: 100%;
+  height: 99%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
 
+.grid-item-1 {
+  grid-column: 1 / span 6;
+  position: relative;
+}
+.grid-text {
+  position: absolute;
+  top: 45%;
+  left: 40%;
+  color: #fff;
+  font-size: 1.75rem;
+  font-weight: 800;
+}
 
+.grid-item-2 {
+  grid-column: 7 / span 6;
+  position: relative;
+}
+.grid-item-3 {
+  grid-column: 1 / span 3;
+  position: relative;
+}
 
+.grid-item-4 {
+  grid-column: 4 / span 5;
+  position: relative;
+}
 
+.grid-item-5 {
+  grid-column: 9 / span 4;
+  position: relative;
+}
 
+.grid-item-6 {
+  grid-column: 1 / span 5;
+  position: relative;
+}
 
+.grid-item-7 {
+  grid-column: 6 / span 7;
+  position: relative;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.hide{
-    display: none;
+.hide {
+  display: none;
 }
