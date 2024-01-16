@@ -16,10 +16,15 @@
   .explore {
     width: 80%;
   }
-  .explore-title,.tour-title,.destination-title ,.options-title{
+  .explore-title,
+  .tour-title,
+  .destination-title,
+  .options-title {
     font-size: 1.375rem;
   }
-  .explore-description,.tour-description,.destination-description {
+  .explore-description,
+  .tour-description,
+  .destination-description {
     width: 90%;
     /* margin: 0 auto; */
   }
@@ -30,41 +35,38 @@
     align-items: center;
   }
 
-  #tour{
+  #tour {
     flex-direction: column;
   }
-/* .tour-description-list{
+  /* .tour-description-list{
     width: 80%;
 } */
-  .tour-img{
+  .tour-img {
     display: flex;
   }
-  .tour-img img{
+  .tour-img img {
     width: 90%;
     margin: 0 auto;
-
   }
 
-  .destination-description{
+  .destination-description {
     margin-bottom: 1rem;
   }
 
   .destination-grid {
-
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(7, auto);
     align-items: center;
     width: 90%;
     margin: 0 auto;
-
   }
 
   .grid-item-1 {
     grid-column: 1 / span 12;
     position: relative;
   }
-  
-.grid-item-2 {
+
+  .grid-item-2 {
     grid-column: 1 / span 12;
     position: relative;
   }
@@ -72,51 +74,70 @@
     grid-column: 1 / span 12;
     position: relative;
   }
-  
+
   .grid-item-4 {
     grid-column: 1 / span 12;
-    position: relative;
   }
-  
+
   .grid-item-5 {
     grid-column: 1 / span 12;
-    position: relative;
   }
-  
+
   .grid-item-6 {
     grid-column: 1 / span 12;
-    position: relative;
   }
-  
+
   .grid-item-7 {
     grid-column: 1 / span 12;
+  }
+  .grid-item-1,
+  .grid-item-2,
+  .grid-item-3,
+  .grid-item-4,
+  .grid-item-5,
+  .grid-item-6,
+  .grid-item-7 {
+    height: 240px;
     position: relative;
   }
-
-  .options-title{
+  .options-title {
     margin-top: 1.5rem;
   }
-.options-description{
+  .options-description {
     width: 90%;
-}
-  .card-container{
+  }
+  .card-container {
     flex-direction: column;
   }
-  .card{
+  .card {
     width: 90%;
   }
 
-  #newsletter{
+  #newsletter {
     flex-direction: column;
   }
-  .newsletter-img img{
+  .newsletter-img img {
     width: 100%;
   }
-  .newsletter-content,.newsletter-img{
+  .newsletter-content,
+  .newsletter-img {
     width: 90%;
     margin: 0 auto;
   }
-.newsletter-content button{
+  .newsletter-content button {
     margin-bottom: 2rem;
+  }
+
+  .footer-text{
+    width: 70%;
+
+}
+footer > ul{
+
+    margin-bottom: 1.3rem;
+}
+footer hr{
+    width: 70%;
+    margin-bottom: .5rem;
 }
 }
